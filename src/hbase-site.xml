@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://master:8020/hbase</value>
+    <value>hdfs://192.168.1.105:9000/hbase</value>
   </property>
   <property>
     <name>hbase.client.write.buffer</name>

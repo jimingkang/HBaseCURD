@@ -24,7 +24,7 @@ public class HBaseDAOImp implements HBaseDAO{
 	public HBaseDAOImp()
 	{
 		Configuration conf = new Configuration();
-		String zk_list = "192.168.229.129:2181,192.168.229.132:2181" ;
+		String zk_list = "192.168.1.105:2181" ;
 		conf.set("hbase.zookeeper.quorum", zk_list);
 		try {
 			hTablePool = HConnectionManager.createConnection(conf) ;
